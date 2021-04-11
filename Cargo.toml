@@ -10,3 +10,4 @@ edition = "2018"
 structopt = "*"
 reqwest = "*"
 tokio = { version = "1", features = ["full"] }
+select = "*"
