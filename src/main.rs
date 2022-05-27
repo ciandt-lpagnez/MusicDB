@@ -37,8 +37,8 @@ async fn main() -> Result<(), Error> {
     println!("Headers:\n{:#?}", res.headers());
 
     println!("{}", "https://www.azlyrics.com/lyrics/".to_string()
-    + &*args.band + "/"
-    + &*song_without_spaces + ".html");
+        + &*args.band + "/"
+        + &*song_without_spaces + ".html");
 
     // Setting the body to Scrap
     let body = res.text().await?;
